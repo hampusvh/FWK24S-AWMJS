@@ -30,15 +30,7 @@ function App() {
 
       const data = await response.json();
 
-      /* 
-        if .env is dev on server
-      */
       setJwtToken(data.token);
-
-      /* 
-        if .env is prod on server
-      */
-      // setResponse(data.message);
     } catch (error) {
       setError(error.message);
     } finally {
