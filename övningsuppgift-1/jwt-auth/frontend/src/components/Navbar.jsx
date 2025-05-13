@@ -1,5 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 
+import "./Components.css";
+
 function Navbar() {
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
@@ -15,9 +17,7 @@ function Navbar() {
         <Link to="/" className="nav-link">
           Home
         </Link>
-        <Link to="/about" className="nav-link">
-          About
-        </Link>
+
         {token && (
           <>
             <Link to="/dashboard" className="nav-link">

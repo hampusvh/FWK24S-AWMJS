@@ -6,6 +6,8 @@ import Dashboard from "./pages/Dashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Navbar from "./components/Navbar";
 
+import "./App.css";
+
 function App() {
   return (
     <BrowserRouter>
