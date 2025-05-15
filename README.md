@@ -1,2 +1,3 @@
-# jensen-avancerad-javascript
-Avancerad webbutveckling med javascript
+# FWK24S Avancerad Webbramverk med JavaScript
+
+Övningar & Demos
